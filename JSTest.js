@@ -13,8 +13,5 @@ function PrintLine(s) {
     console.log('------' + s + '------')
 }
 
-<<<<<<< HEAD
 console.log('nihao')
-=======
 console.log('new')
->>>>>>> bc5555c829bfaeea367058c7ffef2a3d2eb3c0f2
