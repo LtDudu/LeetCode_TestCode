@@ -13,3 +13,4 @@ function PrintLine(s) {
     console.log('------' + s + '------')
 }
 
+console.log('new')
