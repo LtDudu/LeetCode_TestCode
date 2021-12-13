@@ -1,8 +1,3 @@
-let nums1 = [1,3,6,11,15,37,567]
-let nums2 = [2,6,16,346,8901]
-findMedianSortedArrays(nums1, nums2)
-
-
 var findMedianSortedArrays = function(nums1, nums2) {
     let l1 = nums1.length -1, l2 = nums2.length - 1
     if(l1 < l2) return findMedianSortedArrays(nums2, nums1)
@@ -22,3 +17,7 @@ var findMedianSortedArrays = function(nums1, nums2) {
         if(loop > loopLimit) break
     }
 };
+
+let nums1 = [1,3,6,11,15,37,567]
+let nums2 = [2,6,16,346,8901]
+findMedianSortedArrays(nums1, nums2)
